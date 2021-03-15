@@ -1,0 +1,16 @@
+<app-banner></app-banner> <!-- Loads in the banner component -->
+
+
+<app-welcome></app-welcome> <!-- Loads in the Welcome component -->
+
+<nav> <!-- Three buttons -->
+
+  <a routerLink="/dashboard">myDashboard</a>  <!-- loads in the dashboard component on click --> 
+  <a routerLink="/heroes">Heroes</a>          <!-- loads in the heroes component on click -->  
+  <a routerLink="/about">About</a>            <!-- loads in the about component on click --> 
+
+</nav>
+
+<router-outlet></router-outlet><!-- Plonks it here - whichever was clikced. -->
+
+
